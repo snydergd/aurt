@@ -1,0 +1,19 @@
+#logging:
+#  level:
+#    root: debug
+spring:
+  mustache:
+    suffix: .html
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 301712555268-etemri9j218m1nmk8677qdaq178s446l.apps.googleusercontent.com
+            client-secret: hk-XCKRax8a-PiDA7NORhg_5
+            client-name: ARTSY2
+            # redirect-uri: '{baseUrl}/oauth2/callback/{registrationId}'
+            scope:
+            - email
+            - profile
+
